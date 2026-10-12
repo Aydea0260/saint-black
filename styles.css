@@ -18,7 +18,8 @@ button{font-family:inherit;cursor:pointer}
 /* header */
 .site-header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
   padding:.9rem 1rem;background:rgba(10,10,12,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.wordmark{font-family:var(--font-d);font-weight:700;font-size:1.35rem;letter-spacing:.14em}
+.wordmark{font-family:var(--font-d);font-weight:700;font-size:1.35rem;letter-spacing:.14em;display:inline-flex;align-items:center;gap:.55rem}
+.brand-mark{height:30px;width:30px}
 .wordmark.sm{font-size:1rem}
 .site-nav{display:none;gap:1.6rem}
 .site-nav a{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
